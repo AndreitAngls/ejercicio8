@@ -105,6 +105,7 @@ public class PERSONA
             cmd.Parameters.AddWithValue("@cuenta", Cuenta);
             cmd.Parameters.AddWithValue("@nombre", Nombre);
             cmd.Parameters.AddWithValue("@apellido", Apellido);
+	    cmd.Parameters.AddWithValue("@ci", Ci);
             cmd.Parameters.AddWithValue("@domicilio", Domicilio);
             cmd.Parameters.AddWithValue("@celular", Celular);
             cmd.Parameters.AddWithValue("@correo", Correo);
